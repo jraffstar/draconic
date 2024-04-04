@@ -28,6 +28,7 @@ public class Draconic
 
     public Draconic()
     {
+
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
@@ -51,6 +52,10 @@ public class Draconic
         if(event.getTabKey() == CreativeModeTabs.COMBAT) {
             event.accept(ModItems.GONK);
 
+
+        }
+        if(event.getTabKey() == CreativeModeTabs.COMBAT) {
+            event.accept(ModItems.PLONK);
         }
     }
 
