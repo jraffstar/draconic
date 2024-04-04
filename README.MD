@@ -1,1 +1,3 @@
-using this file to just figure out how to do stuff through intellij lol. i normally use github desktop
+# Draconic
+<h4> mod im make to learn forge </h4>
+yup learning intellij git tools also i normally use github desktop
